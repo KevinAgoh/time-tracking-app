@@ -25,27 +25,22 @@
          
         </div>
         <div class="menu">
-          <span>Daily</span>
-          <span>Weekly</span>
-          <span>Monthly</span>
+          <button class='windowlinks' onClick="openWindow(event, 'Daily')" id='defaultOpen'>Daily</button>
+          <button class='windowlinks' onClick="openWindow(event, 'Weekly')">Weekly</button>
+          <button class='windowlinks' onClick="openWindow(event, 'Montly')">Monthly</button>
         </div>
       </div>
-      <div id="work"> 
+      <div id="work" class="windowcontent"> 
       </div>
-      <div id="play"> 
-        
+      <div id="play" class="windowcontent"> 
       </div>
-      <div id="study"> 
-        
+      <div id="study" class="windowcontent"> 
       </div>
-      <div id="exercice"> 
-        
+      <div id="exercice" class="windowcontent"> 
       </div>
-      <div id="social"> 
-        
+      <div id="social" class="windowcontent"> 
       </div>
-      <div id="care"> 
-        
+      <div id="care" class="windowcontent"> 
       </div>
     </div>
   </div>
@@ -54,7 +49,7 @@
     Coded by <a href="https://github.com/KevinAgoh">Kévin AGOH</a>.
   </div>
   <script type='text/javascript' src='src/index.js'>
-
+    document.getElementById("defaultOpen").click();
   </script>
 </body>
 </html>

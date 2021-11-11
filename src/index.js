@@ -92,3 +92,21 @@ fetch('../data.json')
   social.insertAdjacentHTML('beforeend', socialContent);
   care.insertAdjacentHTML('beforeend', careContent);
 });
+
+function openWindow(evt, windowName) {
+  var i, windowContent, windowLinks;
+
+  windowContent = document.getElementsByClassName('windowcontent');
+  for (i = 0; i < windowContent.length; i++) {
+    windowContent[i].style.display = 'none';
+  }
+
+  windowLinks = document.getElementsByClassName('windowlinks');
+  for (i = 0; i < windowLinks.length; i++) {
+    windowLinks[i].className = windowLinks[i].className.replace( ' active', '');
+  }
+
+  document.getElementById(windowName).style.display = 'block';
+  evt.currentTarget.className += ' active';
+}
+
