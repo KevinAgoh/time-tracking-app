@@ -35,10 +35,9 @@
 }
 
 .name {
-  line-height: 10px;
-  position: relative;
-  top: 50px;
-  left: 20px;
+  line-height: 15px;
+  padding-left: 30px;
+  padding-top: 50px;
 }
 
 .avatar {
@@ -47,26 +46,55 @@
   border: 3px solid white;
   border-radius: 50%;
   position: relative;
-  top: 20px;
-  left: 20px;
+  top: 30px;
+  left: 30px;
 }
 
-p {
-  color: white;
+.name p {
+  color: hsl(236, 100%, 87%);
+  font-size: 12px;
+  margin: 0 !important;
+  padding-top: 1px;
 }
 
-h1 {
+.name h1 {
   color: white;
   font-weight: 300;
+  font-stretch: 150%;
+  font-size: 40px;
 }
+
+/* MENU  */
 
 .menu {
   display: flex;
   flex-direction: column;
-  padding-left: 30px;
   line-height: 30px;
   justify-self: end;
+  justify-content: left;
 }
+
+.menu button {
+  background-color: inherit;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s;
+  text-align: left;
+  color: hsl(236, 100%, 87%);
+  padding-left: 30px;
+  padding-top: 15px;
+}
+
+.menu button.active {
+  color: white;
+}
+
+.menu button:hover {
+  color: white;
+}
+
+/* GRID */
 
 .windowcontent {
   display: none;
@@ -130,21 +158,4 @@ h1 {
   align-self: flex-end;
   width: 100%;
   border-radius: 15px;
-}
-
-.menu button {
-  background-color: inherit;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  font-weight: bold;
-  transition: 0.3s;
-}
-
-.menu button.active {
-  background-color: #ccc;
-}
-
-.menu button:hover {
-  background-color: #ddd;
 }
