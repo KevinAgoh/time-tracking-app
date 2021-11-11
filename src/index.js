@@ -7,7 +7,7 @@ fetch('../data.json')
     <div id="work" class="windowcontent daily"> 
       <div class="overview-box">
         <div class="activity-overview">
-          <p>${data[0].title}</p>
+          <h5>${data[0].title}</h5>
           <h1>${data[0].timeframes.daily.current}hrs</h1>
           <p>Last Week - ${data[0].timeframes.daily.previous}</p>
         </div>
@@ -16,7 +16,7 @@ fetch('../data.json')
     <div id="play" class="windowcontent daily">
       <div class="overview-box">
         <div class="activity-overview">
-          <p>${data[1].title}</p>
+          <h5>${data[1].title}</h5>
           <h1>${data[1].timeframes.daily.current}hrs</h1>
           <p>Last Week - ${data[1].timeframes.daily.previous}</p>
         </div>
@@ -25,7 +25,7 @@ fetch('../data.json')
     <div id="study" class="windowcontent daily">
       <div class="overview-box">
         <div class="activity-overview">
-          <p>${data[2].title}</p>
+          <h5>${data[2].title}</h5>
           <h1>${data[2].timeframes.daily.current}hrs</h1>
           <p>Last Week - ${data[2].timeframes.daily.previous}</p>
         </div>
@@ -34,7 +34,7 @@ fetch('../data.json')
     <div id="exercice" class="windowcontent daily">
       <div class="overview-box">
         <div class="activity-overview">
-          <p>${data[3].title}</p>
+          <h5>${data[3].title}</h5>
           <h1>${data[3].timeframes.daily.current}hrs</h1>
           <p>Last Week - ${data[3].timeframes.daily.previous}</p>
         </div>
@@ -43,7 +43,7 @@ fetch('../data.json')
     <div id="social" class="windowcontent daily">
       <div class="overview-box">
         <div class="activity-overview">
-          <p>${data[4].title}</p>
+          <h5>${data[4].title}</h5>
           <h1>${data[4].timeframes.daily.current}hrs</h1>
           <p>Last Week - ${data[4].timeframes.daily.previous}</p>
         </div>
@@ -52,7 +52,7 @@ fetch('../data.json')
     <div id="care" class="windowcontent daily">
       <div class="overview-box">
         <div class="activity-overview">
-          <p>${data[5].title}</p>
+          <h5>${data[5].title}</h5>
           <h1>${data[5].timeframes.daily.current}hrs</h1>
           <p>Last Week - ${data[5].timeframes.daily.previous}</p>
         </div>
@@ -65,7 +65,7 @@ fetch('../data.json')
     <div id="work" class="windowcontent weekly"> 
       <div class="overview-box">
         <div class="activity-overview">
-          <p>${data[0].title}</p>
+          <h5>${data[0].title}</h5>
           <h1>${data[0].timeframes.weekly.current}hrs</h1>
           <p>Last Week - ${data[0].timeframes.weekly.previous}</p>
         </div>
@@ -74,7 +74,7 @@ fetch('../data.json')
     <div id="play" class="windowcontent weekly">
       <div class="overview-box">
         <div class="activity-overview">
-          <p>${data[1].title}</p>
+          <h5>${data[1].title}</h5>
           <h1>${data[1].timeframes.weekly.current}hrs</h1>
           <p>Last Week - ${data[1].timeframes.weekly.previous}</p>
         </div>
@@ -83,7 +83,7 @@ fetch('../data.json')
     <div id="study" class="windowcontent weekly">
       <div class="overview-box">
         <div class="activity-overview">
-          <p>${data[2].title}</p>
+          <h5>${data[2].title}</h5>
           <h1>${data[2].timeframes.weekly.current}hrs</h1>
           <p>Last Week - ${data[2].timeframes.weekly.previous}</p>
         </div>
@@ -92,7 +92,7 @@ fetch('../data.json')
     <div id="exercice" class="windowcontent weekly">
       <div class="overview-box">
         <div class="activity-overview">
-          <p>${data[3].title}</p>
+          <h5>${data[3].title}</h5>
           <h1>${data[3].timeframes.weekly.current}hrs</h1>
           <p>Last Week - ${data[3].timeframes.weekly.previous}</p>
         </div>
@@ -101,7 +101,7 @@ fetch('../data.json')
     <div id="social" class="windowcontent weekly">
       <div class="overview-box">
         <div class="activity-overview">
-          <p>${data[4].title}</p>
+          <h5>${data[4].title}</h5>
           <h1>${data[4].timeframes.weekly.current}hrs</h1>
           <p>Last Week - ${data[4].timeframes.weekly.previous}</p>
         </div>
@@ -110,7 +110,7 @@ fetch('../data.json')
     <div id="care" class="windowcontent weekly">
       <div class="overview-box">
         <div class="activity-overview">
-          <p>${data[5].title}</p>
+          <h5>${data[5].title}</h5>
           <h1>${data[5].timeframes.weekly.current}hrs</h1>
           <p>Last Week - ${data[5].timeframes.weekly.previous}</p>
         </div>
@@ -122,7 +122,7 @@ fetch('../data.json')
     <div id="work" class="windowcontent monthly"> 
       <div class="overview-box">
         <div class="activity-overview">
-          <p>${data[0].title}</p>
+          <h5>${data[0].title}</h5>
           <h1>${data[0].timeframes.monthly.current}hrs</h1>
           <p>Last Week - ${data[0].timeframes.monthly.previous}</p>
         </div>
@@ -131,7 +131,7 @@ fetch('../data.json')
     <div id="play" class="windowcontent monthly">
       <div class="overview-box">
         <div class="activity-overview">
-          <p>${data[1].title}</p>
+          <h5>${data[1].title}</h5>
           <h1>${data[1].timeframes.monthly.current}hrs</h1>
           <p>Last Week - ${data[1].timeframes.monthly.previous}</p>
         </div>
@@ -140,7 +140,7 @@ fetch('../data.json')
     <div id="study" class="windowcontent monthly">
       <div class="overview-box">
         <div class="activity-overview">
-          <p>${data[2].title}</p>
+          <h5>${data[2].title}</h5>
           <h1>${data[2].timeframes.monthly.current}hrs</h1>
           <p>Last Week - ${data[2].timeframes.monthly.previous}</p>
         </div>
@@ -149,7 +149,7 @@ fetch('../data.json')
     <div id="exercice" class="windowcontent monthly">
       <div class="overview-box">
         <div class="activity-overview">
-          <p>${data[3].title}</p>
+          <h5>${data[3].title}</h5>
           <h1>${data[3].timeframes.monthly.current}hrs</h1>
           <p>Last Week - ${data[3].timeframes.monthly.previous}</p>
         </div>
@@ -158,7 +158,7 @@ fetch('../data.json')
     <div id="social" class="windowcontent monthly">
       <div class="overview-box">
         <div class="activity-overview">
-          <p>${data[4].title}</p>
+          <h5>${data[4].title}</h5>
           <h1>${data[4].timeframes.monthly.current}hrs</h1>
           <p>Last Week - ${data[4].timeframes.monthly.previous}</p>
         </div>
@@ -167,7 +167,7 @@ fetch('../data.json')
     <div id="care" class="windowcontent monthly">
       <div class="overview-box">
         <div class="activity-overview">
-          <p>${data[5].title}</p>
+          <h5>${data[5].title}</h5>
           <h1>${data[5].timeframes.monthly.current}hrs</h1>
           <p>Last Week - ${data[5].timeframes.monthly.previous}</p>
         </div>
