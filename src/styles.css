@@ -163,6 +163,9 @@
 
 .activity-overview {
   padding-left: 25px;
+  background-image: url("/images/icon-ellipsis.svg");
+  background-repeat: no-repeat;
+  background-position: top 32px right 40px;
 }
 
 .overview-box {
