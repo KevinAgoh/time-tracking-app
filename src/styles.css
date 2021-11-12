@@ -98,6 +98,7 @@
 
 .windowcontent {
   display: none;
+  animation: fadeEffect 1s;
 }
 
 #work {
@@ -155,21 +156,23 @@
   overflow: hidden;
 }
 
-.overview-box p {
-  font-size: 12px;
-  color: hsl(236, 100%, 87%);
+.overview-box h5 {
+  font-weight: 300;
+  color: white;
   margin: 0 !important;
+  padding-top: 23px;
 }
 
 .overview-box h1 {
-  font-size: 45px;
+  font-size: 50px;
   font-weight: 300;
   color: white;
   margin: 0 !important;
+  padding-top: 15px;
 }
-.overview-box h5 {
-  font-size: 20px;
-  font-weight: 300;
-  color: white;
+
+.overview-box p {
+  font-size: 12px;
+  color: hsl(236, 100%, 87%);
   margin: 0 !important;
 }
