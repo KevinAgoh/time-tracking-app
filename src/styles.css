@@ -181,7 +181,8 @@
   font-weight: 300;
   color: white;
   margin: 0 !important;
-  padding-top: 23px;
+  padding-top: 18px;
+  font-size: 18px;
 }
 
 .overview-box h1 {
@@ -196,4 +197,45 @@
   font-size: 12px;
   color: hsl(236, 100%, 87%);
   margin: 0 !important;
+}
+
+/* MOBILE PHONE DESIGN */
+
+@media (max-width: 375px) {
+  .activity-grid {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .profile {
+    height: 75px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 25px;
+  }
+
+  .name {
+    padding: 0;
+    line-height: 4px;
+  }
+
+  .avatar {
+    top: 0;
+    left: 0;
+  }
+
+  .name h1 {
+    font-size: 20px;
+  }
+
+  .menu {
+    flex-direction: unset;
+    height: 40%;
+    justify-content: space-evenly;
+  }
+
+  .menu button {
+    padding: 7px;
+  }
 }

@@ -9,7 +9,7 @@ fetch('../data.json')
         <div class="activity-overview">
           <h5>${data[0].title}</h5>
           <h1>${data[0].timeframes.daily.current}hrs</h1>
-          <p>Last Week - ${data[0].timeframes.daily.previous}</p>
+          <p>Yesterday - ${data[0].timeframes.daily.previous}</p>
         </div>
       </div>
     </div>
@@ -18,7 +18,7 @@ fetch('../data.json')
         <div class="activity-overview">
           <h5>${data[1].title}</h5>
           <h1>${data[1].timeframes.daily.current}hrs</h1>
-          <p>Last Week - ${data[1].timeframes.daily.previous}</p>
+          <p>Yesterday - ${data[1].timeframes.daily.previous}</p>
         </div>
       </div>
     </div>
@@ -27,7 +27,7 @@ fetch('../data.json')
         <div class="activity-overview">
           <h5>${data[2].title}</h5>
           <h1>${data[2].timeframes.daily.current}hrs</h1>
-          <p>Last Week - ${data[2].timeframes.daily.previous}</p>
+          <p>Yesterday - ${data[2].timeframes.daily.previous}</p>
         </div>
       </div>
     </div>
@@ -36,7 +36,7 @@ fetch('../data.json')
         <div class="activity-overview">
           <h5>${data[3].title}</h5>
           <h1>${data[3].timeframes.daily.current}hrs</h1>
-          <p>Last Week - ${data[3].timeframes.daily.previous}</p>
+          <p>Yesterday - ${data[3].timeframes.daily.previous}</p>
         </div>
       </div>
     </div>
@@ -45,7 +45,7 @@ fetch('../data.json')
         <div class="activity-overview">
           <h5>${data[4].title}</h5>
           <h1>${data[4].timeframes.daily.current}hrs</h1>
-          <p>Last Week - ${data[4].timeframes.daily.previous}</p>
+          <p>Yesterday - ${data[4].timeframes.daily.previous}</p>
         </div>
       </div>
     </div>
@@ -54,7 +54,7 @@ fetch('../data.json')
         <div class="activity-overview">
           <h5>${data[5].title}</h5>
           <h1>${data[5].timeframes.daily.current}hrs</h1>
-          <p>Last Week - ${data[5].timeframes.daily.previous}</p>
+          <p>Yesterday - ${data[5].timeframes.daily.previous}</p>
         </div>
       </div>
     </div>
@@ -124,7 +124,7 @@ fetch('../data.json')
         <div class="activity-overview">
           <h5>${data[0].title}</h5>
           <h1>${data[0].timeframes.monthly.current}hrs</h1>
-          <p>Last Week - ${data[0].timeframes.monthly.previous}</p>
+          <p>Last Month - ${data[0].timeframes.monthly.previous}</p>
         </div>
       </div>
     </div>
@@ -133,7 +133,7 @@ fetch('../data.json')
         <div class="activity-overview">
           <h5>${data[1].title}</h5>
           <h1>${data[1].timeframes.monthly.current}hrs</h1>
-          <p>Last Week - ${data[1].timeframes.monthly.previous}</p>
+          <p>Last Month - ${data[1].timeframes.monthly.previous}</p>
         </div>
       </div>
     </div>
@@ -142,7 +142,7 @@ fetch('../data.json')
         <div class="activity-overview">
           <h5>${data[2].title}</h5>
           <h1>${data[2].timeframes.monthly.current}hrs</h1>
-          <p>Last Week - ${data[2].timeframes.monthly.previous}</p>
+          <p>Last Month - ${data[2].timeframes.monthly.previous}</p>
         </div>
       </div>
     </div>
@@ -151,7 +151,7 @@ fetch('../data.json')
         <div class="activity-overview">
           <h5>${data[3].title}</h5>
           <h1>${data[3].timeframes.monthly.current}hrs</h1>
-          <p>Last Week - ${data[3].timeframes.monthly.previous}</p>
+          <p>Last Month - ${data[3].timeframes.monthly.previous}</p>
         </div>
       </div>
     </div>
@@ -160,7 +160,7 @@ fetch('../data.json')
         <div class="activity-overview">
           <h5>${data[4].title}</h5>
           <h1>${data[4].timeframes.monthly.current}hrs</h1>
-          <p>Last Week - ${data[4].timeframes.monthly.previous}</p>
+          <p>Last Month - ${data[4].timeframes.monthly.previous}</p>
         </div>
       </div>
     </div>
@@ -169,7 +169,7 @@ fetch('../data.json')
         <div class="activity-overview">
           <h5>${data[5].title}</h5>
           <h1>${data[5].timeframes.monthly.current}hrs</h1>
-          <p>Last Week - ${data[5].timeframes.monthly.previous}</p>
+          <p>Last Month - ${data[5].timeframes.monthly.previous}</p>
         </div>
       </div>
     </div>
