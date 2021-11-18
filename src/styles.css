@@ -107,7 +107,7 @@
   background-color: hsl(15, 100%, 70%);
   border-radius: 15px;
   display: flex;
-  background-image: url("images/icon-work.svg");
+  background-image: url("../images/icon-work.svg");
   background-repeat: no-repeat;
   background-position: top right;
 }
@@ -117,7 +117,7 @@
   background-color: hsl(195, 74%, 62%);
   border-radius: 15px;
   display: flex;
-  background-image: url("images/icon-play.svg");
+  background-image: url("../images/icon-play.svg");
   background-repeat: no-repeat;
   background-position: top right;
 }
@@ -127,7 +127,7 @@
   background-color: hsl(348, 100%, 68%);
   border-radius: 15px;
   display: flex;
-  background-image: url("images/icon-study.svg");
+  background-image: url("../images/icon-study.svg");
   background-repeat: no-repeat;
   background-position: top right;
 }
@@ -137,7 +137,7 @@
   background-color: hsl(145, 58%, 55%);
   border-radius: 15px;
   display: flex;
-  background-image: url("images/icon-exercise.svg");
+  background-image: url("../images/icon-exercise.svg");
   background-repeat: no-repeat;
   background-position: top right;
 }
@@ -147,7 +147,7 @@
   background-color: hsl(264, 64%, 52%);
   border-radius: 15px;
   display: flex;
-  background-image: url("images/icon-social.svg");
+  background-image: url("../images/icon-social.svg");
   background-repeat: no-repeat;
   background-position: top right;
 }
@@ -157,14 +157,14 @@
   background-color: hsl(43, 84%, 65%);
   border-radius: 15px;
   display: flex;
-  background-image: url("images/icon-self-care.svg");
+  background-image: url("../images/icon-self-care.svg");
   background-repeat: no-repeat;
   background-position: top right;
 }
 
 .activity-overview {
   padding-left: 25px;
-  background-image: url("images/icon-ellipsis.svg");
+  background-image: url("../images/icon-ellipsis.svg");
   background-repeat: no-repeat;
   background-position: top 32px right 40px;
 }
