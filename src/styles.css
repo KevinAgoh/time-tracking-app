@@ -84,6 +84,7 @@
   color: hsl(236, 100%, 87%);
   padding-left: 30px;
   padding-top: 15px;
+  width: fit-content;
 }
 
 .menu button.active {
@@ -177,6 +178,11 @@
   overflow: hidden;
 }
 
+.overview-box:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
 .overview-box h5 {
   font-weight: 300;
   color: white;
@@ -190,7 +196,6 @@
   font-weight: 300;
   color: white;
   margin: 0 !important;
-  padding-top: 15px;
 }
 
 .overview-box p {
@@ -202,10 +207,15 @@
 /* MOBILE PHONE DESIGN */
 
 @media (max-width: 375px) {
+  .container {
+    align-items: unset;
+  }
+
   .activity-grid {
     display: flex;
     flex-direction: column;
     width: 90%;
+    height: max-content;
   }
 
   .profile {
@@ -237,5 +247,29 @@
 
   .menu button {
     padding: 7px;
+  }
+
+  .windowcontent {
+    height: 120px;
+  }
+
+  .activity-overview {
+    padding: 15px 0 0 25px;
+  }
+
+  .overview-box h5 {
+    padding: unset;
+    font-size: 15px;
+  }
+
+  .overview-box h1 {
+    padding: unset;
+    font-size: 25px;
+  }
+
+  .overview-box p {
+    padding: unset;
+    text-align: left;
+    font-size: 10px;
   }
 }
